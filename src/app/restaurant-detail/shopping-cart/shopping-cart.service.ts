@@ -14,7 +14,7 @@ export class ShoppingCartService {
     if (foundItem) {
       foundItem.quantity += 1;
     } else {
-      this.items.push(new CartItem(item))
+      this.items.push(new CartItem(item));
     }
   }
 
