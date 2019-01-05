@@ -30,7 +30,8 @@
 
         <div class="col-sm-3 col-xs-6">
           <mt-input-container errorMessage="Obrigatório e somente números" label="Número">
-            <input type="text" class="form-control" name="number" required ngModel placeholder="Número" pattern="^[0-9]*$" autocomplete="off">
+            <input type="text" class="form-control" name="number" required ngModel placeholder="Número" pattern="^[0-9]*$"
+              autocomplete="off">
           </mt-input-container>
         </div>
 
@@ -49,8 +50,13 @@
           <p class="lead">Itens do Pedido:</p>
         </div>
 
-        <mt-order-items></mt-order-items>
+        <mt-order-items [items]="cartItems()"
+          (increaseQty)="increaseQty($event)"
+          (decreaseQty)="decreaseQty($event)"
+          (remove)="remove($event)">
+        </mt-order-items>
         <!-- /.col -->
+
       </div>
       <!-- /.row -->
 
