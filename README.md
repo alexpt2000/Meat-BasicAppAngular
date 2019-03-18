@@ -1,44 +1,49 @@
-# Meat - Angular App Starter
+# Meat - Basic App Angular
 
-## 1. Passos para começar
+Step-by-step application based on the link below.
 
-### Clonando o Repositório
+* https://www.udemy.com/angular-pt/
+![Screencast](docs/screencast.gif)
 
-`git clone https://github.com/cod3rcursos/meat-app-starter.git`
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Instalando as Dependências
+### Installing
+A step by step series of examples that tell you how to get a development env running
+
+Clone with HTTPS
+
+`git clone https://github.com/alexpt2000/Meat-BasicAppAngular.git`
+
+nstalling dependencies
 
 `npm install`
 
-### Inicializando o Servidor
+Start the application
 
 `ng serve` ou `npm start`
 
-## 2. Iniciando o Backend
-
-### Instalando o json-server
+#### Start the backend
+Install the json-server
 
 `npm install -g json-server`
 
-### Iniciando o serviço (raiz da aplicação)
+Start the service
 
 `json-server db.json`
 
-## Goodies
 
-Expressões regulares usadas na validação de formulários
-
-### Email Regex
+## Regular expression
+Email Regex
 
 `/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`
 
-### Number Regex
+Number Regex
 
 `/^[0-9]*$/`
 
-## Upgrade para Angular 4.3
-
-Dependências dos pacotes que devem ficar em package.json:
+## Upgrade to Angular 4.3
+package.json:
 
 ```
 "dependencies": {
@@ -86,9 +91,8 @@ Dependências dos pacotes que devem ficar em package.json:
   }
 ```
 
-## Upgrade para Angular 6 (Apenas para a aulas finais)
-
-Dependências dos pacotes que devem ficar em package.json:
+## Upgrade to Angular 6
+package.json:
 
 ```
 "dependencies": {
@@ -142,6 +146,3 @@ Dependências dos pacotes que devem ficar em package.json:
   }
 ```
 
-## Créditos
-
-Todas as imagens usadas na aplicação são pertencentes a freepik.com
