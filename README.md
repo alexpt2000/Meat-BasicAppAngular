@@ -1,6 +1,6 @@
 # Meat - Basic App Angular
 
-Step-by-step application based on the link below.
+Course step-by-step based on the link below.
 
 * https://www.udemy.com/angular-pt/
 ![Screencast](docs/screencast.gif)
