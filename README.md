@@ -21,7 +21,7 @@ nstalling dependencies
 
 Start the application
 
-`ng serve` ou `npm start`
+`ng serve` or `npm start`
 
 #### Start the backend
 Install the json-server
